@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width:100%;
+  height: 100vh;
+}
+.game{
+  width:100%;
+  height: 100vh;
+  position:absolute;
+}
+.bg{
+  background: url("Assets/Bg.png");
+  width:640px;
+  height: 540px;
+  background-size:contain;
+  border: 2px solid black;
+  position: absolute;
+}
+
+.player{
+  background-image: url("Assets/Ship64.png");
+}
+
+.missile{
+  background-image: url("Assets/FlashProjectile64.png");
+}
+.enemy{
+  background-image: url("Assets/enemy64.png");
+}
+
+div{
+  position:absolute;
+  width:64px;
+  height:64px;
+  background-repeat: no-repeat;
+}
